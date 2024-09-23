@@ -13,3 +13,4 @@ D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Services\o
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Services\obj\Debug\net8.0\refint\Services.dll
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Services\obj\Debug\net8.0\Services.pdb
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Services\obj\Debug\net8.0\ref\Services.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Services\obj\Debug\net8.0\Services.sourcelink.json

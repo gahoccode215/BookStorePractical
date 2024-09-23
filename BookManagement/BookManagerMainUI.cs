@@ -35,5 +35,11 @@ namespace BookManagement
             dgvBookList.DataSource = null;
             dgvBookList.DataSource = service.GetAllBooks();
         }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            BookDetailForm f = new BookDetailForm();
+            f.ShowDialog();
+        }
     }
 }

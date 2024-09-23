@@ -9,3 +9,4 @@ D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Repositori
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

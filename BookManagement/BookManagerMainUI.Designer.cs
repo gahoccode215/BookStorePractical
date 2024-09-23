@@ -131,6 +131,7 @@
             btnCreate.TabIndex = 2;
             btnCreate.Text = "Create a book";
             btnCreate.UseVisualStyleBackColor = true;
+            btnCreate.Click += btnCreate_Click;
             // 
             // btnUpdate
             // 
