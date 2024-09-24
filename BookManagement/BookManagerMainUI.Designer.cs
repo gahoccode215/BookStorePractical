@@ -31,7 +31,7 @@
             lblTitle = new Label();
             grbSearchCriteria = new GroupBox();
             btnSearch = new Button();
-            txtBookDescription = new TextBox();
+            txtDescription = new TextBox();
             txtBookName = new TextBox();
             lblBookDescription = new Label();
             lblBookName = new Label();
@@ -56,12 +56,11 @@
             lblTitle.Size = new Size(597, 106);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Book Manager";
-            lblTitle.Click += label1_Click;
             // 
             // grbSearchCriteria
             // 
             grbSearchCriteria.Controls.Add(btnSearch);
-            grbSearchCriteria.Controls.Add(txtBookDescription);
+            grbSearchCriteria.Controls.Add(txtDescription);
             grbSearchCriteria.Controls.Add(txtBookName);
             grbSearchCriteria.Controls.Add(lblBookDescription);
             grbSearchCriteria.Controls.Add(lblBookName);
@@ -73,7 +72,6 @@
             grbSearchCriteria.TabIndex = 0;
             grbSearchCriteria.TabStop = false;
             grbSearchCriteria.Text = "Search Criteria";
-            grbSearchCriteria.Enter += groupBox1_Enter;
             // 
             // btnSearch
             // 
@@ -84,13 +82,14 @@
             btnSearch.TabIndex = 2;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
-            // txtBookDescription
+            // txtDescription
             // 
-            txtBookDescription.Location = new Point(564, 50);
-            txtBookDescription.Name = "txtBookDescription";
-            txtBookDescription.Size = new Size(172, 38);
-            txtBookDescription.TabIndex = 1;
+            txtDescription.Location = new Point(564, 50);
+            txtDescription.Name = "txtDescription";
+            txtDescription.Size = new Size(172, 38);
+            txtDescription.TabIndex = 1;
             // 
             // txtBookName
             // 
@@ -98,7 +97,6 @@
             txtBookName.Name = "txtBookName";
             txtBookName.Size = new Size(172, 38);
             txtBookName.TabIndex = 0;
-            txtBookName.TextChanged += textBox1_TextChanged;
             // 
             // lblBookDescription
             // 
@@ -144,7 +142,7 @@
             btnUpdate.TabIndex = 3;
             btnUpdate.Text = "Update a book";
             btnUpdate.UseVisualStyleBackColor = true;
-            btnUpdate.Click += button3_Click;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
@@ -169,6 +167,7 @@
             btnExit.TabIndex = 5;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // dgvBookList
             // 
@@ -178,6 +177,7 @@
             dgvBookList.RowHeadersWidth = 51;
             dgvBookList.Size = new Size(752, 267);
             dgvBookList.TabIndex = 1;
+            dgvBookList.SelectionChanged += dgvBookList_SelectionChanged;
             // 
             // txtBookList
             // 
@@ -234,7 +234,7 @@
         private Label lblBookName;
         private TextBox txtBookName;
         private Label lblBookDescription;
-        private TextBox txtBookDescription;
+        private TextBox txtDescription;
         private Button btnSearch;
         private Button btnCreate;
         private Button btnUpdate;

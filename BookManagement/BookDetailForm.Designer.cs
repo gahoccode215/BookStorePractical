@@ -30,23 +30,23 @@
         {
             txtBookList = new Label();
             grbBookInfo = new GroupBox();
+            cboBookCategoryId = new ComboBox();
+            dtpPublicationDate = new DateTimePicker();
+            txtAuthor = new TextBox();
+            txtPrice = new TextBox();
+            txtQuantity = new TextBox();
+            txtDescription = new TextBox();
+            txtBookName = new TextBox();
+            lblCategory = new Label();
+            lblAuthor = new Label();
+            lblPrice = new Label();
+            lblQuantity = new Label();
+            lblPublicationDate = new Label();
+            lblDescription = new Label();
             txtBookId = new TextBox();
             lblBookName = new Label();
             lblBookId = new Label();
             lblTitle = new Label();
-            lblDescription = new Label();
-            lblPublicationDate = new Label();
-            lblQuantity = new Label();
-            lblPrice = new Label();
-            lblAuthor = new Label();
-            lblCategory = new Label();
-            txtBookName = new TextBox();
-            txtDescription = new TextBox();
-            txtQuantity = new TextBox();
-            txtPrice = new TextBox();
-            txtAuthor = new TextBox();
-            dtpPublicationDate = new DateTimePicker();
-            cboBookCategoryId = new ComboBox();
             btnSave = new Button();
             btnCancel = new Button();
             grbBookInfo.SuspendLayout();
@@ -90,6 +90,120 @@
             grbBookInfo.TabStop = false;
             grbBookInfo.Text = "Book Info";
             // 
+            // cboBookCategoryId
+            // 
+            cboBookCategoryId.FormattingEnabled = true;
+            cboBookCategoryId.Location = new Point(227, 405);
+            cboBookCategoryId.Name = "cboBookCategoryId";
+            cboBookCategoryId.Size = new Size(306, 39);
+            cboBookCategoryId.TabIndex = 7;
+            // 
+            // dtpPublicationDate
+            // 
+            dtpPublicationDate.Format = DateTimePickerFormat.Short;
+            dtpPublicationDate.Location = new Point(227, 257);
+            dtpPublicationDate.Name = "dtpPublicationDate";
+            dtpPublicationDate.Size = new Size(306, 38);
+            dtpPublicationDate.TabIndex = 3;
+            // 
+            // txtAuthor
+            // 
+            txtAuthor.Location = new Point(227, 360);
+            txtAuthor.Name = "txtAuthor";
+            txtAuthor.Size = new Size(715, 38);
+            txtAuthor.TabIndex = 6;
+            // 
+            // txtPrice
+            // 
+            txtPrice.Location = new Point(655, 305);
+            txtPrice.Name = "txtPrice";
+            txtPrice.Size = new Size(287, 38);
+            txtPrice.TabIndex = 5;
+            // 
+            // txtQuantity
+            // 
+            txtQuantity.Location = new Point(227, 305);
+            txtQuantity.Name = "txtQuantity";
+            txtQuantity.Size = new Size(306, 38);
+            txtQuantity.TabIndex = 4;
+            // 
+            // txtDescription
+            // 
+            txtDescription.Location = new Point(226, 145);
+            txtDescription.Multiline = true;
+            txtDescription.Name = "txtDescription";
+            txtDescription.ScrollBars = ScrollBars.Vertical;
+            txtDescription.Size = new Size(715, 106);
+            txtDescription.TabIndex = 2;
+            // 
+            // txtBookName
+            // 
+            txtBookName.Location = new Point(226, 93);
+            txtBookName.Name = "txtBookName";
+            txtBookName.Size = new Size(715, 38);
+            txtBookName.TabIndex = 1;
+            // 
+            // lblCategory
+            // 
+            lblCategory.AutoSize = true;
+            lblCategory.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            lblCategory.Location = new Point(18, 405);
+            lblCategory.Name = "lblCategory";
+            lblCategory.Size = new Size(111, 31);
+            lblCategory.TabIndex = 8;
+            lblCategory.Text = "Category";
+            // 
+            // lblAuthor
+            // 
+            lblAuthor.AutoSize = true;
+            lblAuthor.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            lblAuthor.Location = new Point(18, 360);
+            lblAuthor.Name = "lblAuthor";
+            lblAuthor.Size = new Size(90, 31);
+            lblAuthor.TabIndex = 7;
+            lblAuthor.Text = "Author";
+            // 
+            // lblPrice
+            // 
+            lblPrice.AutoSize = true;
+            lblPrice.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            lblPrice.Location = new Point(557, 308);
+            lblPrice.Name = "lblPrice";
+            lblPrice.Size = new Size(67, 31);
+            lblPrice.TabIndex = 6;
+            lblPrice.Text = "Price";
+            // 
+            // lblQuantity
+            // 
+            lblQuantity.AutoSize = true;
+            lblQuantity.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            lblQuantity.Location = new Point(18, 308);
+            lblQuantity.Name = "lblQuantity";
+            lblQuantity.Size = new Size(108, 31);
+            lblQuantity.TabIndex = 5;
+            lblQuantity.Text = "Quantity";
+            // 
+            // lblPublicationDate
+            // 
+            lblPublicationDate.AutoSize = true;
+            lblPublicationDate.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            lblPublicationDate.Location = new Point(18, 257);
+            lblPublicationDate.Name = "lblPublicationDate";
+            lblPublicationDate.Size = new Size(193, 31);
+            lblPublicationDate.TabIndex = 4;
+            lblPublicationDate.Text = "Publication Date";
+            lblPublicationDate.Click += label2_Click;
+            // 
+            // lblDescription
+            // 
+            lblDescription.AutoSize = true;
+            lblDescription.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
+            lblDescription.Location = new Point(18, 145);
+            lblDescription.Name = "lblDescription";
+            lblDescription.Size = new Size(138, 31);
+            lblDescription.TabIndex = 3;
+            lblDescription.Text = "Description";
+            // 
             // txtBookId
             // 
             txtBookId.Location = new Point(226, 40);
@@ -130,120 +244,6 @@
             lblTitle.TabIndex = 7;
             lblTitle.Text = "Book Manager";
             // 
-            // lblDescription
-            // 
-            lblDescription.AutoSize = true;
-            lblDescription.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            lblDescription.Location = new Point(18, 145);
-            lblDescription.Name = "lblDescription";
-            lblDescription.Size = new Size(138, 31);
-            lblDescription.TabIndex = 3;
-            lblDescription.Text = "Description";
-            // 
-            // lblPublicationDate
-            // 
-            lblPublicationDate.AutoSize = true;
-            lblPublicationDate.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            lblPublicationDate.Location = new Point(18, 257);
-            lblPublicationDate.Name = "lblPublicationDate";
-            lblPublicationDate.Size = new Size(193, 31);
-            lblPublicationDate.TabIndex = 4;
-            lblPublicationDate.Text = "Publication Date";
-            lblPublicationDate.Click += label2_Click;
-            // 
-            // lblQuantity
-            // 
-            lblQuantity.AutoSize = true;
-            lblQuantity.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            lblQuantity.Location = new Point(18, 308);
-            lblQuantity.Name = "lblQuantity";
-            lblQuantity.Size = new Size(108, 31);
-            lblQuantity.TabIndex = 5;
-            lblQuantity.Text = "Quantity";
-            // 
-            // lblPrice
-            // 
-            lblPrice.AutoSize = true;
-            lblPrice.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            lblPrice.Location = new Point(557, 308);
-            lblPrice.Name = "lblPrice";
-            lblPrice.Size = new Size(67, 31);
-            lblPrice.TabIndex = 6;
-            lblPrice.Text = "Price";
-            // 
-            // lblAuthor
-            // 
-            lblAuthor.AutoSize = true;
-            lblAuthor.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            lblAuthor.Location = new Point(18, 360);
-            lblAuthor.Name = "lblAuthor";
-            lblAuthor.Size = new Size(90, 31);
-            lblAuthor.TabIndex = 7;
-            lblAuthor.Text = "Author";
-            // 
-            // lblCategory
-            // 
-            lblCategory.AutoSize = true;
-            lblCategory.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
-            lblCategory.Location = new Point(18, 405);
-            lblCategory.Name = "lblCategory";
-            lblCategory.Size = new Size(111, 31);
-            lblCategory.TabIndex = 8;
-            lblCategory.Text = "Category";
-            // 
-            // txtBookName
-            // 
-            txtBookName.Location = new Point(226, 93);
-            txtBookName.Name = "txtBookName";
-            txtBookName.Size = new Size(715, 38);
-            txtBookName.TabIndex = 1;
-            // 
-            // txtDescription
-            // 
-            txtDescription.Location = new Point(226, 145);
-            txtDescription.Multiline = true;
-            txtDescription.Name = "txtDescription";
-            txtDescription.ScrollBars = ScrollBars.Vertical;
-            txtDescription.Size = new Size(715, 106);
-            txtDescription.TabIndex = 2;
-            // 
-            // txtQuantity
-            // 
-            txtQuantity.Location = new Point(227, 305);
-            txtQuantity.Name = "txtQuantity";
-            txtQuantity.Size = new Size(306, 38);
-            txtQuantity.TabIndex = 4;
-            // 
-            // txtPrice
-            // 
-            txtPrice.Location = new Point(655, 305);
-            txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(287, 38);
-            txtPrice.TabIndex = 5;
-            // 
-            // txtAuthor
-            // 
-            txtAuthor.Location = new Point(227, 360);
-            txtAuthor.Name = "txtAuthor";
-            txtAuthor.Size = new Size(715, 38);
-            txtAuthor.TabIndex = 6;
-            // 
-            // dtpPublicationDate
-            // 
-            dtpPublicationDate.Format = DateTimePickerFormat.Short;
-            dtpPublicationDate.Location = new Point(227, 257);
-            dtpPublicationDate.Name = "dtpPublicationDate";
-            dtpPublicationDate.Size = new Size(306, 38);
-            dtpPublicationDate.TabIndex = 3;
-            // 
-            // cboBookCategoryId
-            // 
-            cboBookCategoryId.FormattingEnabled = true;
-            cboBookCategoryId.Location = new Point(227, 405);
-            cboBookCategoryId.Name = "cboBookCategoryId";
-            cboBookCategoryId.Size = new Size(306, 39);
-            cboBookCategoryId.TabIndex = 7;
-            // 
             // btnSave
             // 
             btnSave.FlatStyle = FlatStyle.Flat;
@@ -267,6 +267,7 @@
             btnCancel.TabIndex = 2;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // BookDetailForm
             // 

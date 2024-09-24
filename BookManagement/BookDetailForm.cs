@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Repositories.Entities;
 using Services;
 
 namespace BookManagement
 {
     public partial class BookDetailForm : Form
     {
+        public Book SelectedBook { get; set; } = null;
         public BookDetailForm()
         {
             InitializeComponent();
@@ -35,11 +37,24 @@ namespace BookManagement
 
         private void BookDetailForm_Load(object sender, EventArgs e)
         {
+
             BookCategoryService cat = new BookCategoryService();
             cboBookCategoryId.DataSource = cat.GetAllCategories();
             cboBookCategoryId.DisplayMember = "BookGenreType";
             cboBookCategoryId.ValueMember = "BookCategoryId";
-            cboBookCategoryId.SelectedValue = 5;
+            //cboBookCategoryId.SelectedValue = 5;
+            if (SelectedBook != null)
+            {
+                txtBookId.Text = SelectedBook.BookId.ToString();
+                txtBookName.Text = SelectedBook.BookName.ToString();
+                txtDescription.Text = SelectedBook.Description.ToString();
+                cboBookCategoryId.SelectedValue = SelectedBook.BookCategoryId;
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
