@@ -17,7 +17,7 @@ namespace Services
                 BookName = "Đời Ngắn Đừng Ngủ Dài-Short Life Don’t Sleep Long",
                 Description = "lives in a Los Angeles where franchises line the freeway...",
                 Author = "Robin Sharma",
-                PublicationDate = "2023-01-01",
+                //PublicationDate = "2023-01-01",
                 BookCategoryId = 5
             });
 
@@ -27,7 +27,7 @@ namespace Services
                 BookName = "Mình Là Nắng, Việc Của Mình Là Chói Chang-I Am the Sun, My Job Is to Shine Bright",
                 Description = "Los Angeles where franchises line the freeway...",
                 Author = "Kazuko Watanabe",
-                PublicationDate = "2023-01-01",
+                //PublicationDate = "2023-01-01",
                 BookCategoryId = 5
             });
 
@@ -37,7 +37,7 @@ namespace Services
                 BookName = "Tuổi Trẻ Đáng Giá Bao Nhiêu-How Much Is Youth Worth",
                 Description = "Những bài học kỹ năng mềm",
                 Author = "Rosie Nguyễn",
-                PublicationDate = "2018-01-01",
+                //PublicationDate = "2018-01-01",
                 BookCategoryId = 5
             });
 
@@ -47,7 +47,7 @@ namespace Services
                 BookName = "Snow Crash",
                 Description = "Hiro lives in a Los Angeles where franchises line the freeway...",
                 Author = "Neal Stephenson",
-                PublicationDate = "2001-01-01",
+                //PublicationDate = "2001-01-01",
                 BookCategoryId = 2
             });
 

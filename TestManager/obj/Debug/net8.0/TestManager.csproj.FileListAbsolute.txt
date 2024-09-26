@@ -64,3 +64,9 @@ D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManage
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\obj\Debug\net8.0\TestManager.pdb
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\obj\Debug\net8.0\TestManager.genruntimeconfig.cache
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\obj\Debug\net8.0\ref\TestManager.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\TestManager\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
