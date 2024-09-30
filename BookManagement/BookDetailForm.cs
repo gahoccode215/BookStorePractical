@@ -45,15 +45,44 @@ namespace BookManagement
             //cboBookCategoryId.SelectedValue = 5;
             if (SelectedBook != null)
             {
+                lblTitle.Text = "Update a selected book";
                 txtBookId.Text = SelectedBook.BookId.ToString();
+                txtBookId.Enabled = false;
                 txtBookName.Text = SelectedBook.BookName.ToString();
                 txtDescription.Text = SelectedBook.Description.ToString();
+                dtpPublicationDate.Value = SelectedBook.PublicationDate;
+                txtQuantity.Text = SelectedBook.Quantity.ToString();
+                txtPrice.Text = SelectedBook.Price.ToString();
+                txtAuthor.Text = SelectedBook.Author.ToString();
                 cboBookCategoryId.SelectedValue = SelectedBook.BookCategoryId;
             }
+            else
+                lblTitle.Text = "Create a new book";
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
+            Close();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            Book book = new Book()
+            {
+                BookId = int.Parse(txtBookId.Text),
+                BookName = txtBookName.Text,
+                Description = txtDescription.Text,
+                PublicationDate = dtpPublicationDate.Value,
+                Quantity = int.Parse(txtQuantity.Text),
+                Price = double.Parse(txtPrice.Text),
+                Author = txtAuthor.Text,
+                BookCategoryId = int.Parse(cboBookCategoryId.SelectedValue.ToString())
+            };
+            BookService service = new();
+            if(SelectedBook != null)
+                service.UpdateBook(book);
+            else
+                service.AddBook(book);
             Close();
         }
     }

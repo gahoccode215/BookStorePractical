@@ -1,57 +1,31 @@
-﻿using Repositories.Entities;
+﻿using Repositories;
+using Repositories.Entities;
 
 namespace Services
 {
+
     public class BookService
     {
-        public List<Book> GetAllBooks()
+        private BookRepository _repo = new BookRepository();
+
+        public List<Book> GetBooks()
         {
-            //TODO: Gọi class BookRepository để lấy toàn bộ sách từ DB
-            //Call class BookRepository to retrieve all books from DB
-            List<Book> arr = new List<Book>();
+            return _repo.GetBooks();
+        }
 
-            //using object initialization
-            arr.Add(new Book()
-            {
-                BookId = 1,
-                BookName = "Đời Ngắn Đừng Ngủ Dài-Short Life Don’t Sleep Long",
-                Description = "lives in a Los Angeles where franchises line the freeway...",
-                Author = "Robin Sharma",
-                //PublicationDate = "2023-01-01",
-                BookCategoryId = 5
-            });
+        public void AddBook(Book book)
+        {
+            _repo.AddBook(book);
+        }
 
-            arr.Add(new Book()
-            {
-                BookId = 2,
-                BookName = "Mình Là Nắng, Việc Của Mình Là Chói Chang-I Am the Sun, My Job Is to Shine Bright",
-                Description = "Los Angeles where franchises line the freeway...",
-                Author = "Kazuko Watanabe",
-                //PublicationDate = "2023-01-01",
-                BookCategoryId = 5
-            });
+        public void UpdateBook(Book book)
+        {
+            _repo.UpdateBook(book);
+        }
 
-            arr.Add(new Book()
-            {
-                BookId = 3,
-                BookName = "Tuổi Trẻ Đáng Giá Bao Nhiêu-How Much Is Youth Worth",
-                Description = "Những bài học kỹ năng mềm",
-                Author = "Rosie Nguyễn",
-                //PublicationDate = "2018-01-01",
-                BookCategoryId = 5
-            });
-
-            arr.Add(new Book()
-            {
-                BookId = 4,
-                BookName = "Snow Crash",
-                Description = "Hiro lives in a Los Angeles where franchises line the freeway...",
-                Author = "Neal Stephenson",
-                //PublicationDate = "2001-01-01",
-                BookCategoryId = 2
-            });
-
-            return arr;
+        public void DeleteBook(Book book)
+        {
+            _repo.DeleteBook(book);
         }
     }
 }

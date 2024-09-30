@@ -22,19 +22,17 @@ public partial class BookManagementDbContext : DbContext
     public virtual DbSet<BookCategory> BookCategories { get; set; }
 
     public virtual DbSet<UserAccount> UserAccounts { get; set; }
+    private string? GetConnectionString()
+    {
+        IConfiguration configuration = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", true, true).Build();
+        return configuration["ConnectionStrings:DefaultConnectionStringDB"];
+    }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer(GetConnectionString());
-    private string GetConnectionString()
-    {
-        IConfiguration config = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json", true, true)
-            .Build();
-        var strConn = config["ConnectionStrings: DefaultConnectionStringDB "];
-
-        return strConn;
-    }
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Book>(entity =>

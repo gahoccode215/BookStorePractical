@@ -76,3 +76,4 @@ D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\BookManage
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\BookManagement\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\BookManagement\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
 D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\BookManagement\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\self-learning\csharp-dotnet\prn211\session08-pe\BookStorePractical\BookManagement\obj\Debug\net8.0-windows\BookManagement.LoginForm.resources
