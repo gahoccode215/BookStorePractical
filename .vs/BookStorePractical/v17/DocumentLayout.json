@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\bookmanagement\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C3B1E4-1651-47B8-B5DD-3B577CCD3620}|Services\\Services.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\services\\useraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C3B1E4-1651-47B8-B5DD-3B577CCD3620}|Services\\Services.csproj|solutionrelative:services\\useraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C3B1E4-1651-47B8-B5DD-3B577CCD3620}|Services\\Services.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C3B1E4-1651-47B8-B5DD-3B577CCD3620}|Services\\Services.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\bookmanagement\\bookmanagermainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookmanagermainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\bookmanagermainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookmanagermainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\bookdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\bookmanagement\\bookdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C3B1E4-1651-47B8-B5DD-3B577CCD3620}|Services\\Services.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\services\\bookcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C3B1E4-1651-47B8-B5DD-3B577CCD3620}|Services\\Services.csproj|solutionrelative:services\\bookcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\bookcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\bookmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\entities\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\bookdetailform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookdetailform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\repositories.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\repositories\\entities\\bookcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F41CF1A-B731-4364-A615-7BE4C1EDA125}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\bookcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|d:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\bookstorepractical\\bookmanagement\\bookmanagermainui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F643A50A-05CB-42E7-BFCA-B6D2E01B5799}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookmanagermainui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\LoginForm.cs",
+              "RelativeDocumentMoniker": "BookManagement\\LoginForm.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\LoginForm.cs",
+              "RelativeToolTip": "BookManagement\\LoginForm.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:38:49.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAccountService.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Services\\UserAccountService.cs",
+              "RelativeDocumentMoniker": "Services\\UserAccountService.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Services\\UserAccountService.cs",
+              "RelativeToolTip": "Services\\UserAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:20:19.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAccountRepository.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\UserAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserAccountRepository.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\UserAccountRepository.cs",
+              "RelativeToolTip": "Repositories\\UserAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:06:45.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Services\\BookService.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Services\\BookService.cs",
+              "RelativeToolTip": "Services\\BookService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:11:00.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookManagerMainUI.cs [Design]",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookManagerMainUI.cs",
+              "RelativeDocumentMoniker": "BookManagement\\BookManagerMainUI.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookManagerMainUI.cs [Design]",
+              "RelativeToolTip": "BookManagement\\BookManagerMainUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:25:46.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookManagerMainUI.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookManagerMainUI.cs",
+              "RelativeDocumentMoniker": "BookManagement\\BookManagerMainUI.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookManagerMainUI.cs",
+              "RelativeToolTip": "BookManagement\\BookManagerMainUI.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAowFsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:33:54.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "BookManagement\\appsettings.json",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\appsettings.json",
+              "RelativeToolTip": "BookManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T06:41:04.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\LoginForm.cs",
+              "RelativeDocumentMoniker": "BookManagement\\LoginForm.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\LoginForm.cs [Design]",
+              "RelativeToolTip": "BookManagement\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:36:48.476Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookDetailForm.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookDetailForm.cs",
+              "RelativeDocumentMoniker": "BookManagement\\BookDetailForm.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookDetailForm.cs",
+              "RelativeToolTip": "BookManagement\\BookDetailForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:27:18.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\Program.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Program.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\Program.cs",
+              "RelativeToolTip": "BookManagement\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:37:11.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookDetailForm.cs [Design]",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookDetailForm.cs",
+              "RelativeDocumentMoniker": "BookManagement\\BookDetailForm.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookDetailForm.cs [Design]",
+              "RelativeToolTip": "BookManagement\\BookDetailForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:50:39.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Repositories\\BookRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:02:29.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookCategoryService.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Services\\BookCategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\BookCategoryService.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Services\\BookCategoryService.cs",
+              "RelativeToolTip": "Services\\BookCategoryService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:14:25.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookCategoryRepository.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\BookCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookCategoryRepository.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\BookCategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\BookCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:40:22.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookManagementDbContext.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\BookManagementDbContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookManagementDbContext.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\BookManagementDbContext.cs",
+              "RelativeToolTip": "Repositories\\BookManagementDbContext.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T04:40:12.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Entities\\UserAccount.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\UserAccount.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Entities\\UserAccount.cs",
+              "RelativeToolTip": "Repositories\\Entities\\UserAccount.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:42:42.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\Book.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Entities\\Book.cs",
+              "RelativeToolTip": "Repositories\\Entities\\Book.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:42:50.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-26T22:11:36.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookCategory.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Entities\\BookCategory.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\BookCategory.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Entities\\BookCategory.cs",
+              "RelativeToolTip": "Repositories\\Entities\\BookCategory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:42:47.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Repositories",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T06:49:23.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookDetailForm.Designer.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookDetailForm.Designer.cs",
+              "RelativeDocumentMoniker": "BookManagement\\BookDetailForm.Designer.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookDetailForm.Designer.cs",
+              "RelativeToolTip": "BookManagement\\BookDetailForm.Designer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA8wDoBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:50:49.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookManagerMainUI.Designer.cs",
+              "DocumentMoniker": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookManagerMainUI.Designer.cs",
+              "RelativeDocumentMoniker": "BookManagement\\BookManagerMainUI.Designer.cs",
+              "ToolTip": "D:\\self-learning\\csharp-dotnet\\prn211\\session08-pe\\BookStorePractical\\BookManagement\\BookManagerMainUI.Designer.cs",
+              "RelativeToolTip": "BookManagement\\BookManagerMainUI.Designer.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:29:19.28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
